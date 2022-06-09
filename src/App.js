@@ -5,9 +5,7 @@ import { auth } from "./firebase/config";
 import React, { useEffect } from "react";
 import { useDispatch } from "react-redux";
 
-import { Navbar } from './components';
-import { AdminNavbar } from "./components";
-import { Signup } from './components';
+import { Signup } from './components/registration';
 import './App.scss';
 import { setLogin, setLogOut, selectEmail, selectUid } from './redux/LoginSlice'
 import { Admin, Home, User, AdminUser, PropLocation } from "./pages"
@@ -42,7 +40,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/admin" element={<Admin />} />
         <Route exact path="/PropLocation" element={<PropLocation />} />
-        <Route exact path="/User" element={<User />} />
+        <Route exact path="/user" element={<User />} />
         <Route exact path="/AdminUser" element={<AdminUser />} />
         <Route exact path="/signin" element={<Signup />} />
       </Routes>

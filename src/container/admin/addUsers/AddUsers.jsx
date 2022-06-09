@@ -1,5 +1,5 @@
 import React from 'react'
-import { AddUsersForm,MyForm } from '../../../components'
+import { AddUsersForm,MyForm } from '../../../components/admin'
 
 function AddUsers() {
   return (

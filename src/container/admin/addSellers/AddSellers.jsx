@@ -1,5 +1,5 @@
 import React from 'react'
-import { AddSellersForm } from '../../../components'
+import { AddSellersForm } from '../../../components/admin'
 
 function AddSellers() {
   return (

@@ -6,6 +6,7 @@ import AddBuyers from "./addBuyers/AddBuyers";
 import AddSellers from "./addSellers/AddSellers";
 import AddInvestors from "./addInvestors/AddInvestors";
 import AddUsers from "./addUsers/AddUsers";
+import AddAchivesForm from "./addAchives/AddAchives";
 
 export{
     Buyers,
@@ -15,5 +16,6 @@ export{
     AddBuyers,
     AddSellers,
     AddInvestors,
-    AddUsers
+    AddUsers,
+    AddAchivesForm
 }
